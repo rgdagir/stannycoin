@@ -123,445 +123,761 @@
       "type": "event"
     }
   ],
-  "bytecode": "0x6060604052341561000f57600080fd5b6040516060806106848339810160405280805190602001909190805190602001909190805190602001909190505082828260008311151561004f57600080fd5b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415151561008b57600080fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515156100c757600080fd5b8260028190555081600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505050505050610520806101646000396000f30060606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632c4e722e146100785780634042b66f146100a1578063521eb273146100ca578063ec8ac4d81461011f578063fc0c546a1461014d575b610076336101a2565b005b341561008357600080fd5b61008b610270565b6040518082815260200191505060405180910390f35b34156100ac57600080fd5b6100b4610276565b6040518082815260200191505060405180910390f35b34156100d557600080fd5b6100dd61027c565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61014b600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506101a2565b005b341561015857600080fd5b6101606102a2565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000803491506101b283836102c7565b6101bb82610317565b90506101d28260035461033590919063ffffffff16565b6003819055506101e28382610353565b8273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f623b3804fa71d67900d064613da8f94b9617215ee90799290593e1745087ad188484604051808381526020018281526020019250505060405180910390a36102598383610361565b610261610365565b61026b83836103c9565b505050565b60025481565b60035481565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415151561030357600080fd5b6000811415151561031357600080fd5b5050565b600061032e600254836103cd90919063ffffffff16565b9050919050565b600080828401905083811015151561034957fe5b8091505092915050565b61035d8282610408565b5050565b5050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051600060405180830381858888f1935050505015156103c757600080fd5b565b5050565b60008060008414156103e25760009150610401565b82840290508284828115156103f357fe5b041415156103fd57fe5b8091505b5092915050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a9059cbb83836000604051602001526040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b15156104d457600080fd5b6102c65a03f115156104e557600080fd5b505050604051805190505050505600a165627a7a72305820e089d6c12c8836d8f2dcaba6e3fd6847dc4b3a6b095b327d8d586b07de922adf0029",
-  "deployedBytecode": "0x60606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632c4e722e146100785780634042b66f146100a1578063521eb273146100ca578063ec8ac4d81461011f578063fc0c546a1461014d575b610076336101a2565b005b341561008357600080fd5b61008b610270565b6040518082815260200191505060405180910390f35b34156100ac57600080fd5b6100b4610276565b6040518082815260200191505060405180910390f35b34156100d557600080fd5b6100dd61027c565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61014b600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506101a2565b005b341561015857600080fd5b6101606102a2565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000803491506101b283836102c7565b6101bb82610317565b90506101d28260035461033590919063ffffffff16565b6003819055506101e28382610353565b8273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f623b3804fa71d67900d064613da8f94b9617215ee90799290593e1745087ad188484604051808381526020018281526020019250505060405180910390a36102598383610361565b610261610365565b61026b83836103c9565b505050565b60025481565b60035481565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415151561030357600080fd5b6000811415151561031357600080fd5b5050565b600061032e600254836103cd90919063ffffffff16565b9050919050565b600080828401905083811015151561034957fe5b8091505092915050565b61035d8282610408565b5050565b5050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051600060405180830381858888f1935050505015156103c757600080fd5b565b5050565b60008060008414156103e25760009150610401565b82840290508284828115156103f357fe5b041415156103fd57fe5b8091505b5092915050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a9059cbb83836000604051602001526040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b15156104d457600080fd5b6102c65a03f115156104e557600080fd5b505050604051805190505050505600a165627a7a72305820e089d6c12c8836d8f2dcaba6e3fd6847dc4b3a6b095b327d8d586b07de922adf0029",
-  "sourceMap": "116:271:1:-;;;162:118;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;251:5;258:7;267:6;1711:1:2;1703:5;:9;1695:18;;;;;;;;1746:1;1727:21;;:7;:21;;;;1719:30;;;;;;;;1781:1;1763:20;;:6;:20;;;;1755:29;;;;;;;;1798:5;1791:4;:12;;;;1818:7;1809:6;;:16;;;;;;;;;;;;;;;;;;1839:6;1831:5;;:14;;;;;;;;;;;;;;;;;;1617:233;;;162:118:1;;;116:271;;;;;;",
-  "deployedSourceMap": "116:271:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2080:21:2;2090:10;2080:9;:21::i;:::-;116:271:1;1006:19:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1056:24;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;933:21;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2242:542;;;;;;;;;;;;;;;;;;;;871:18;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2242:542;2305:17;2436:14;2325:9;2305:29;;2340:45;2361:12;2375:9;2340:20;:45::i;:::-;2453:26;2469:9;2453:15;:26::i;:::-;2436:43;;2518:24;2532:9;2518;;:13;;:24;;;;:::i;:::-;2506:9;:36;;;;2549:38;2566:12;2580:6;2549:16;:38::i;:::-;2619:12;2593:58;;2607:10;2593:58;;;2633:9;2644:6;2593:58;;;;;;;;;;;;;;;;;;;;;;;;2658:47;2681:12;2695:9;2658:22;:47::i;:::-;2712:15;:13;:15::i;:::-;2733:46;2755:12;2769:9;2733:21;:46::i;:::-;2242:542;;;:::o;1006:19::-;;;;:::o;1056:24::-;;;;:::o;933:21::-;;;;;;;;;;;;;:::o;871:18::-;;;;;;;;;;;;;:::o;3207:157::-;3326:1;3302:26;;:12;:26;;;;3294:35;;;;;;;;3357:1;3343:10;:15;;3335:24;;;;;;;;3207:157;;:::o;5130:115::-;5198:7;5220:20;5235:4;;5220:10;:14;;:20;;;;:::i;:::-;5213:27;;5130:115;;;:::o;1008:129:3:-;1066:7;1081:9;1097:1;1093;:5;1081:17;;1116:1;1111;:6;;1104:14;;;;;;1131:1;1124:8;;1008:129;;;;;:::o;4394:132:2:-;4479:42;4494:12;4508;4479:14;:42::i;:::-;4394:132;;:::o;4779:113::-;;;:::o;5324:71::-;5364:6;;;;;;;;;;;:15;;:26;5380:9;5364:26;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;5324:71::o;3642:112::-;;;:::o;203:173:3:-;261:7;316:9;285:1;280;:6;276:35;;;303:1;296:8;;;;276:35;332:1;328;:5;316:17;;355:1;350;346;:5;;;;;;;;:10;339:18;;;;;;370:1;363:8;;203:173;;;;;;:::o;4017:130:2:-;4100:5;;;;;;;;;;;:14;;;4115:12;4129;4100:42;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;4017:130;;:::o",
+  "bytecode": "0x6060604052341561000f57600080fd5b6040516060806106848339810160405280805190602001909190805190602001909190805190602001909190505082828260008311151561004f57600080fd5b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415151561008b57600080fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515156100c757600080fd5b8260028190555081600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505050505050610520806101646000396000f30060606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632c4e722e146100785780634042b66f146100a1578063521eb273146100ca578063ec8ac4d81461011f578063fc0c546a1461014d575b610076336101a2565b005b341561008357600080fd5b61008b610270565b6040518082815260200191505060405180910390f35b34156100ac57600080fd5b6100b4610276565b6040518082815260200191505060405180910390f35b34156100d557600080fd5b6100dd61027c565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61014b600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506101a2565b005b341561015857600080fd5b6101606102a2565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000803491506101b283836102c7565b6101bb82610317565b90506101d28260035461033590919063ffffffff16565b6003819055506101e28382610353565b8273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f623b3804fa71d67900d064613da8f94b9617215ee90799290593e1745087ad188484604051808381526020018281526020019250505060405180910390a36102598383610361565b610261610365565b61026b83836103c9565b505050565b60025481565b60035481565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415151561030357600080fd5b6000811415151561031357600080fd5b5050565b600061032e600254836103cd90919063ffffffff16565b9050919050565b600080828401905083811015151561034957fe5b8091505092915050565b61035d8282610408565b5050565b5050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051600060405180830381858888f1935050505015156103c757600080fd5b565b5050565b60008060008414156103e25760009150610401565b82840290508284828115156103f357fe5b041415156103fd57fe5b8091505b5092915050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a9059cbb83836000604051602001526040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b15156104d457600080fd5b6102c65a03f115156104e557600080fd5b505050604051805190505050505600a165627a7a72305820889321cb624e4f5a4cf96d987443ce326a20136001f01686f10608af2d72d3b40029",
+  "deployedBytecode": "0x60606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632c4e722e146100785780634042b66f146100a1578063521eb273146100ca578063ec8ac4d81461011f578063fc0c546a1461014d575b610076336101a2565b005b341561008357600080fd5b61008b610270565b6040518082815260200191505060405180910390f35b34156100ac57600080fd5b6100b4610276565b6040518082815260200191505060405180910390f35b34156100d557600080fd5b6100dd61027c565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61014b600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506101a2565b005b341561015857600080fd5b6101606102a2565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000803491506101b283836102c7565b6101bb82610317565b90506101d28260035461033590919063ffffffff16565b6003819055506101e28382610353565b8273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f623b3804fa71d67900d064613da8f94b9617215ee90799290593e1745087ad188484604051808381526020018281526020019250505060405180910390a36102598383610361565b610261610365565b61026b83836103c9565b505050565b60025481565b60035481565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415151561030357600080fd5b6000811415151561031357600080fd5b5050565b600061032e600254836103cd90919063ffffffff16565b9050919050565b600080828401905083811015151561034957fe5b8091505092915050565b61035d8282610408565b5050565b5050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051600060405180830381858888f1935050505015156103c757600080fd5b565b5050565b60008060008414156103e25760009150610401565b82840290508284828115156103f357fe5b041415156103fd57fe5b8091505b5092915050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a9059cbb83836000604051602001526040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b15156104d457600080fd5b6102c65a03f115156104e557600080fd5b505050604051805190505050505600a165627a7a72305820889321cb624e4f5a4cf96d987443ce326a20136001f01686f10608af2d72d3b40029",
+  "sourceMap": "116:271:2:-;;;162:118;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;251:5;258:7;267:6;1711:1:3;1703:5;:9;1695:18;;;;;;;;1746:1;1727:21;;:7;:21;;;;1719:30;;;;;;;;1781:1;1763:20;;:6;:20;;;;1755:29;;;;;;;;1798:5;1791:4;:12;;;;1818:7;1809:6;;:16;;;;;;;;;;;;;;;;;;1839:6;1831:5;;:14;;;;;;;;;;;;;;;;;;1617:233;;;162:118:2;;;116:271;;;;;;",
+  "deployedSourceMap": "116:271:2:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2080:21:3;2090:10;2080:9;:21::i;:::-;116:271:2;1006:19:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1056:24;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;933:21;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2242:542;;;;;;;;;;;;;;;;;;;;871:18;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2242:542;2305:17;2436:14;2325:9;2305:29;;2340:45;2361:12;2375:9;2340:20;:45::i;:::-;2453:26;2469:9;2453:15;:26::i;:::-;2436:43;;2518:24;2532:9;2518;;:13;;:24;;;;:::i;:::-;2506:9;:36;;;;2549:38;2566:12;2580:6;2549:16;:38::i;:::-;2619:12;2593:58;;2607:10;2593:58;;;2633:9;2644:6;2593:58;;;;;;;;;;;;;;;;;;;;;;;;2658:47;2681:12;2695:9;2658:22;:47::i;:::-;2712:15;:13;:15::i;:::-;2733:46;2755:12;2769:9;2733:21;:46::i;:::-;2242:542;;;:::o;1006:19::-;;;;:::o;1056:24::-;;;;:::o;933:21::-;;;;;;;;;;;;;:::o;871:18::-;;;;;;;;;;;;;:::o;3207:157::-;3326:1;3302:26;;:12;:26;;;;3294:35;;;;;;;;3357:1;3343:10;:15;;3335:24;;;;;;;;3207:157;;:::o;5130:115::-;5198:7;5220:20;5235:4;;5220:10;:14;;:20;;;;:::i;:::-;5213:27;;5130:115;;;:::o;1008:129:4:-;1066:7;1081:9;1097:1;1093;:5;1081:17;;1116:1;1111;:6;;1104:14;;;;;;1131:1;1124:8;;1008:129;;;;;:::o;4394:132:3:-;4479:42;4494:12;4508;4479:14;:42::i;:::-;4394:132;;:::o;4779:113::-;;;:::o;5324:71::-;5364:6;;;;;;;;;;;:15;;:26;5380:9;5364:26;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;5324:71::o;3642:112::-;;;:::o;203:173:4:-;261:7;316:9;285:1;280;:6;276:35;;;303:1;296:8;;;;276:35;332:1;328;:5;316:17;;355:1;350;346;:5;;;;;;;;:10;339:18;;;;;;370:1;363:8;;203:173;;;;;;:::o;4017:130:3:-;4100:5;;;;;;;;;;;:14;;;4115:12;4129;4100:42;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;4017:130;;:::o",
   "source": "pragma solidity ^0.4.18;\n\nimport \"./StannyCoin.sol\";\nimport \"zeppelin-solidity/contracts/crowdsale/Crowdsale.sol\";\n\ncontract StannyCoinCrowdsale is Crowdsale {\n  function StannyCoinCrowdsale(uint256 _rate, address _wallet, ERC20 _token)\n    Crowdsale(_rate, _wallet, _token) {\n  }\n\n  function createTokenContract() internal returns(StannyCoin token) {\n    return new StannyCoin();\n  }\n\n}\n",
-  "sourcePath": "/Users/andrew/Desktop/Andrew/Projects/stannycoin/contracts/StannyCoinCrowdsale.sol",
+  "sourcePath": "/Users/raulgallodagir/Code/rgdagir/stannycoin/contracts/StannyCoinCrowdsale.sol",
   "ast": {
-    "attributes": {
-      "absolutePath": "/Users/andrew/Desktop/Andrew/Projects/stannycoin/contracts/StannyCoinCrowdsale.sol",
-      "exportedSymbols": {
-        "StannyCoinCrowdsale": [
-          291
-        ]
-      }
+    "absolutePath": "/Users/raulgallodagir/Code/rgdagir/stannycoin/contracts/StannyCoinCrowdsale.sol",
+    "exportedSymbols": {
+      "StannyCoinCrowdsale": [
+        348
+      ]
     },
-    "children": [
+    "id": 349,
+    "nodeType": "SourceUnit",
+    "nodes": [
       {
-        "attributes": {
-          "literals": [
-            "solidity",
-            "^",
-            "0.4",
-            ".18"
-          ]
-        },
-        "id": 261,
-        "name": "PragmaDirective",
-        "src": "0:24:1"
+        "id": 318,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".18"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:2"
       },
       {
-        "attributes": {
-          "SourceUnit": 260,
-          "absolutePath": "/Users/andrew/Desktop/Andrew/Projects/stannycoin/contracts/StannyCoin.sol",
-          "file": "./StannyCoin.sol",
-          "scope": 292,
-          "symbolAliases": [
-            null
-          ],
-          "unitAlias": ""
-        },
-        "id": 262,
-        "name": "ImportDirective",
-        "src": "26:26:1"
+        "absolutePath": "/Users/raulgallodagir/Code/rgdagir/stannycoin/contracts/StannyCoin.sol",
+        "file": "./StannyCoin.sol",
+        "id": 319,
+        "nodeType": "ImportDirective",
+        "scope": 349,
+        "sourceUnit": 317,
+        "src": "26:26:2",
+        "symbolAliases": [],
+        "unitAlias": ""
       },
       {
-        "attributes": {
-          "SourceUnit": 516,
-          "absolutePath": "zeppelin-solidity/contracts/crowdsale/Crowdsale.sol",
-          "file": "zeppelin-solidity/contracts/crowdsale/Crowdsale.sol",
-          "scope": 292,
-          "symbolAliases": [
-            null
-          ],
-          "unitAlias": ""
-        },
-        "id": 263,
-        "name": "ImportDirective",
-        "src": "53:61:1"
+        "absolutePath": "zeppelin-solidity/contracts/crowdsale/Crowdsale.sol",
+        "file": "zeppelin-solidity/contracts/crowdsale/Crowdsale.sol",
+        "id": 320,
+        "nodeType": "ImportDirective",
+        "scope": 349,
+        "sourceUnit": 573,
+        "src": "53:61:2",
+        "symbolAliases": [],
+        "unitAlias": ""
       },
       {
-        "attributes": {
-          "contractDependencies": [
-            259,
-            515
-          ],
-          "contractKind": "contract",
-          "documentation": null,
-          "fullyImplemented": true,
-          "linearizedBaseContracts": [
-            291,
-            515
-          ],
-          "name": "StannyCoinCrowdsale",
-          "scope": 292
-        },
-        "children": [
+        "baseContracts": [
           {
-            "attributes": {
-              "arguments": [
-                null
-              ]
-            },
-            "children": [
-              {
-                "attributes": {
-                  "contractScope": null,
-                  "name": "Crowdsale",
-                  "referencedDeclaration": 515,
-                  "type": "contract Crowdsale"
-                },
-                "id": 264,
-                "name": "UserDefinedTypeName",
-                "src": "148:9:1"
+            "arguments": [],
+            "baseName": {
+              "contractScope": null,
+              "id": 321,
+              "name": "Crowdsale",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 572,
+              "src": "148:9:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Crowdsale_$572",
+                "typeString": "contract Crowdsale"
               }
-            ],
-            "id": 265,
-            "name": "InheritanceSpecifier",
-            "src": "148:9:1"
-          },
-          {
-            "attributes": {
-              "constant": false,
-              "implemented": true,
-              "isConstructor": true,
-              "name": "StannyCoinCrowdsale",
-              "payable": false,
-              "scope": 291,
-              "stateMutability": "nonpayable",
-              "superFunction": null,
-              "visibility": "public"
             },
-            "children": [
-              {
-                "children": [
-                  {
-                    "attributes": {
-                      "constant": false,
-                      "name": "_rate",
-                      "scope": 280,
-                      "stateVariable": false,
-                      "storageLocation": "default",
-                      "type": "uint256",
-                      "value": null,
-                      "visibility": "internal"
-                    },
-                    "children": [
-                      {
-                        "attributes": {
-                          "name": "uint256",
-                          "type": "uint256"
-                        },
-                        "id": 266,
-                        "name": "ElementaryTypeName",
-                        "src": "191:7:1"
-                      }
-                    ],
-                    "id": 267,
-                    "name": "VariableDeclaration",
-                    "src": "191:13:1"
-                  },
-                  {
-                    "attributes": {
-                      "constant": false,
-                      "name": "_wallet",
-                      "scope": 280,
-                      "stateVariable": false,
-                      "storageLocation": "default",
-                      "type": "address",
-                      "value": null,
-                      "visibility": "internal"
-                    },
-                    "children": [
-                      {
-                        "attributes": {
-                          "name": "address",
-                          "type": "address"
-                        },
-                        "id": 268,
-                        "name": "ElementaryTypeName",
-                        "src": "206:7:1"
-                      }
-                    ],
-                    "id": 269,
-                    "name": "VariableDeclaration",
-                    "src": "206:15:1"
-                  },
-                  {
-                    "attributes": {
-                      "constant": false,
-                      "name": "_token",
-                      "scope": 280,
-                      "stateVariable": false,
-                      "storageLocation": "default",
-                      "type": "contract ERC20",
-                      "value": null,
-                      "visibility": "internal"
-                    },
-                    "children": [
-                      {
-                        "attributes": {
-                          "contractScope": null,
-                          "name": "ERC20",
-                          "referencedDeclaration": 712,
-                          "type": "contract ERC20"
-                        },
-                        "id": 270,
-                        "name": "UserDefinedTypeName",
-                        "src": "223:5:1"
-                      }
-                    ],
-                    "id": 271,
-                    "name": "VariableDeclaration",
-                    "src": "223:12:1"
-                  }
-                ],
-                "id": 272,
-                "name": "ParameterList",
-                "src": "190:46:1"
-              },
-              {
-                "attributes": {
-                  "parameters": [
-                    null
-                  ]
-                },
-                "children": [],
-                "id": 278,
-                "name": "ParameterList",
-                "src": "275:0:1"
-              },
-              {
-                "children": [
-                  {
-                    "attributes": {
-                      "argumentTypes": null,
-                      "overloadedDeclarations": [
-                        null
-                      ],
-                      "referencedDeclaration": 515,
-                      "type": "type(contract Crowdsale)",
-                      "value": "Crowdsale"
-                    },
-                    "id": 273,
-                    "name": "Identifier",
-                    "src": "241:9:1"
-                  },
-                  {
-                    "attributes": {
-                      "argumentTypes": null,
-                      "overloadedDeclarations": [
-                        null
-                      ],
-                      "referencedDeclaration": 267,
-                      "type": "uint256",
-                      "value": "_rate"
-                    },
-                    "id": 274,
-                    "name": "Identifier",
-                    "src": "251:5:1"
-                  },
-                  {
-                    "attributes": {
-                      "argumentTypes": null,
-                      "overloadedDeclarations": [
-                        null
-                      ],
-                      "referencedDeclaration": 269,
-                      "type": "address",
-                      "value": "_wallet"
-                    },
-                    "id": 275,
-                    "name": "Identifier",
-                    "src": "258:7:1"
-                  },
-                  {
-                    "attributes": {
-                      "argumentTypes": null,
-                      "overloadedDeclarations": [
-                        null
-                      ],
-                      "referencedDeclaration": 271,
-                      "type": "contract ERC20",
-                      "value": "_token"
-                    },
-                    "id": 276,
-                    "name": "Identifier",
-                    "src": "267:6:1"
-                  }
-                ],
-                "id": 277,
-                "name": "ModifierInvocation",
-                "src": "241:33:1"
-              },
-              {
-                "attributes": {
-                  "statements": [
-                    null
-                  ]
-                },
-                "children": [],
-                "id": 279,
-                "name": "Block",
-                "src": "275:5:1"
-              }
-            ],
-            "id": 280,
-            "name": "FunctionDefinition",
-            "src": "162:118:1"
-          },
-          {
-            "attributes": {
-              "constant": false,
-              "implemented": true,
-              "isConstructor": false,
-              "modifiers": [
-                null
-              ],
-              "name": "createTokenContract",
-              "payable": false,
-              "scope": 291,
-              "stateMutability": "nonpayable",
-              "superFunction": null,
-              "visibility": "internal"
-            },
-            "children": [
-              {
-                "attributes": {
-                  "parameters": [
-                    null
-                  ]
-                },
-                "children": [],
-                "id": 281,
-                "name": "ParameterList",
-                "src": "312:2:1"
-              },
-              {
-                "children": [
-                  {
-                    "attributes": {
-                      "constant": false,
-                      "name": "token",
-                      "scope": 290,
-                      "stateVariable": false,
-                      "storageLocation": "default",
-                      "type": "contract StannyCoin",
-                      "value": null,
-                      "visibility": "internal"
-                    },
-                    "children": [
-                      {
-                        "attributes": {
-                          "contractScope": null,
-                          "name": "StannyCoin",
-                          "referencedDeclaration": 259,
-                          "type": "contract StannyCoin"
-                        },
-                        "id": 282,
-                        "name": "UserDefinedTypeName",
-                        "src": "332:10:1"
-                      }
-                    ],
-                    "id": 283,
-                    "name": "VariableDeclaration",
-                    "src": "332:16:1"
-                  }
-                ],
-                "id": 284,
-                "name": "ParameterList",
-                "src": "331:18:1"
-              },
-              {
-                "children": [
-                  {
-                    "attributes": {
-                      "functionReturnParameters": 284
-                    },
-                    "children": [
-                      {
-                        "attributes": {
-                          "argumentTypes": null,
-                          "arguments": [
-                            null
-                          ],
-                          "isConstant": false,
-                          "isLValue": false,
-                          "isPure": false,
-                          "isStructConstructorCall": false,
-                          "lValueRequested": false,
-                          "names": [
-                            null
-                          ],
-                          "type": "contract StannyCoin",
-                          "type_conversion": false
-                        },
-                        "children": [
-                          {
-                            "attributes": {
-                              "argumentTypes": [
-                                null
-                              ],
-                              "isConstant": false,
-                              "isLValue": false,
-                              "isPure": false,
-                              "lValueRequested": false,
-                              "type": "function () returns (contract StannyCoin)"
-                            },
-                            "children": [
-                              {
-                                "attributes": {
-                                  "contractScope": null,
-                                  "name": "StannyCoin",
-                                  "referencedDeclaration": 259,
-                                  "type": "contract StannyCoin"
-                                },
-                                "id": 285,
-                                "name": "UserDefinedTypeName",
-                                "src": "367:10:1"
-                              }
-                            ],
-                            "id": 286,
-                            "name": "NewExpression",
-                            "src": "363:14:1"
-                          }
-                        ],
-                        "id": 287,
-                        "name": "FunctionCall",
-                        "src": "363:16:1"
-                      }
-                    ],
-                    "id": 288,
-                    "name": "Return",
-                    "src": "356:23:1"
-                  }
-                ],
-                "id": 289,
-                "name": "Block",
-                "src": "350:34:1"
-              }
-            ],
-            "id": 290,
-            "name": "FunctionDefinition",
-            "src": "284:100:1"
+            "id": 322,
+            "nodeType": "InheritanceSpecifier",
+            "src": "148:9:2"
           }
         ],
-        "id": 291,
-        "name": "ContractDefinition",
-        "src": "116:271:1"
+        "contractDependencies": [
+          316,
+          572
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 348,
+        "linearizedBaseContracts": [
+          348,
+          572
+        ],
+        "name": "StannyCoinCrowdsale",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 336,
+              "nodeType": "Block",
+              "src": "275:5:2",
+              "statements": []
+            },
+            "id": 337,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [
+              {
+                "arguments": [
+                  {
+                    "argumentTypes": null,
+                    "id": 331,
+                    "name": "_rate",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 324,
+                    "src": "251:5:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  {
+                    "argumentTypes": null,
+                    "id": 332,
+                    "name": "_wallet",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 326,
+                    "src": "258:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  {
+                    "argumentTypes": null,
+                    "id": 333,
+                    "name": "_token",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 328,
+                    "src": "267:6:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ERC20_$769",
+                      "typeString": "contract ERC20"
+                    }
+                  }
+                ],
+                "id": 334,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 330,
+                  "name": "Crowdsale",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 572,
+                  "src": "241:9:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_type$_t_contract$_Crowdsale_$572_$",
+                    "typeString": "type(contract Crowdsale)"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "241:33:2"
+              }
+            ],
+            "name": "StannyCoinCrowdsale",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 329,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 324,
+                  "name": "_rate",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 337,
+                  "src": "191:13:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 323,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "191:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 326,
+                  "name": "_wallet",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 337,
+                  "src": "206:15:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 325,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "206:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 328,
+                  "name": "_token",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 337,
+                  "src": "223:12:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_ERC20_$769",
+                    "typeString": "contract ERC20"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 327,
+                    "name": "ERC20",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 769,
+                    "src": "223:5:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ERC20_$769",
+                      "typeString": "contract ERC20"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "190:46:2"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 335,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "275:0:2"
+            },
+            "scope": 348,
+            "src": "162:118:2",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 346,
+              "nodeType": "Block",
+              "src": "350:34:2",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "id": 343,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "NewExpression",
+                      "src": "363:14:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_StannyCoin_$316_$",
+                        "typeString": "function () returns (contract StannyCoin)"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 342,
+                        "name": "StannyCoin",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 316,
+                        "src": "367:10:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_StannyCoin_$316",
+                          "typeString": "contract StannyCoin"
+                        }
+                      }
+                    },
+                    "id": 344,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "363:16:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_StannyCoin_$316",
+                      "typeString": "contract StannyCoin"
+                    }
+                  },
+                  "functionReturnParameters": 341,
+                  "id": 345,
+                  "nodeType": "Return",
+                  "src": "356:23:2"
+                }
+              ]
+            },
+            "id": 347,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "createTokenContract",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 338,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "312:2:2"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 341,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 340,
+                  "name": "token",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 347,
+                  "src": "332:16:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_StannyCoin_$316",
+                    "typeString": "contract StannyCoin"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 339,
+                    "name": "StannyCoin",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 316,
+                    "src": "332:10:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_StannyCoin_$316",
+                      "typeString": "contract StannyCoin"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "331:18:2"
+            },
+            "scope": 348,
+            "src": "284:100:2",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "internal"
+          }
+        ],
+        "scope": 349,
+        "src": "116:271:2"
       }
     ],
-    "id": 292,
-    "name": "SourceUnit",
-    "src": "0:388:1"
+    "src": "0:388:2"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/raulgallodagir/Code/rgdagir/stannycoin/contracts/StannyCoinCrowdsale.sol",
+    "exportedSymbols": {
+      "StannyCoinCrowdsale": [
+        348
+      ]
+    },
+    "id": 349,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 318,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".18"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:2"
+      },
+      {
+        "absolutePath": "/Users/raulgallodagir/Code/rgdagir/stannycoin/contracts/StannyCoin.sol",
+        "file": "./StannyCoin.sol",
+        "id": 319,
+        "nodeType": "ImportDirective",
+        "scope": 349,
+        "sourceUnit": 317,
+        "src": "26:26:2",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "zeppelin-solidity/contracts/crowdsale/Crowdsale.sol",
+        "file": "zeppelin-solidity/contracts/crowdsale/Crowdsale.sol",
+        "id": 320,
+        "nodeType": "ImportDirective",
+        "scope": 349,
+        "sourceUnit": 573,
+        "src": "53:61:2",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": [],
+            "baseName": {
+              "contractScope": null,
+              "id": 321,
+              "name": "Crowdsale",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 572,
+              "src": "148:9:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Crowdsale_$572",
+                "typeString": "contract Crowdsale"
+              }
+            },
+            "id": 322,
+            "nodeType": "InheritanceSpecifier",
+            "src": "148:9:2"
+          }
+        ],
+        "contractDependencies": [
+          316,
+          572
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 348,
+        "linearizedBaseContracts": [
+          348,
+          572
+        ],
+        "name": "StannyCoinCrowdsale",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 336,
+              "nodeType": "Block",
+              "src": "275:5:2",
+              "statements": []
+            },
+            "id": 337,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [
+              {
+                "arguments": [
+                  {
+                    "argumentTypes": null,
+                    "id": 331,
+                    "name": "_rate",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 324,
+                    "src": "251:5:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  {
+                    "argumentTypes": null,
+                    "id": 332,
+                    "name": "_wallet",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 326,
+                    "src": "258:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  {
+                    "argumentTypes": null,
+                    "id": 333,
+                    "name": "_token",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 328,
+                    "src": "267:6:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ERC20_$769",
+                      "typeString": "contract ERC20"
+                    }
+                  }
+                ],
+                "id": 334,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 330,
+                  "name": "Crowdsale",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 572,
+                  "src": "241:9:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_type$_t_contract$_Crowdsale_$572_$",
+                    "typeString": "type(contract Crowdsale)"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "241:33:2"
+              }
+            ],
+            "name": "StannyCoinCrowdsale",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 329,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 324,
+                  "name": "_rate",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 337,
+                  "src": "191:13:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 323,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "191:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 326,
+                  "name": "_wallet",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 337,
+                  "src": "206:15:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 325,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "206:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 328,
+                  "name": "_token",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 337,
+                  "src": "223:12:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_ERC20_$769",
+                    "typeString": "contract ERC20"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 327,
+                    "name": "ERC20",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 769,
+                    "src": "223:5:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ERC20_$769",
+                      "typeString": "contract ERC20"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "190:46:2"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 335,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "275:0:2"
+            },
+            "scope": 348,
+            "src": "162:118:2",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 346,
+              "nodeType": "Block",
+              "src": "350:34:2",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "id": 343,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "NewExpression",
+                      "src": "363:14:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_StannyCoin_$316_$",
+                        "typeString": "function () returns (contract StannyCoin)"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 342,
+                        "name": "StannyCoin",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 316,
+                        "src": "367:10:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_StannyCoin_$316",
+                          "typeString": "contract StannyCoin"
+                        }
+                      }
+                    },
+                    "id": 344,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "363:16:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_StannyCoin_$316",
+                      "typeString": "contract StannyCoin"
+                    }
+                  },
+                  "functionReturnParameters": 341,
+                  "id": 345,
+                  "nodeType": "Return",
+                  "src": "356:23:2"
+                }
+              ]
+            },
+            "id": 347,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "createTokenContract",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 338,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "312:2:2"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 341,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 340,
+                  "name": "token",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 347,
+                  "src": "332:16:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_StannyCoin_$316",
+                    "typeString": "contract StannyCoin"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 339,
+                    "name": "StannyCoin",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 316,
+                    "src": "332:10:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_StannyCoin_$316",
+                      "typeString": "contract StannyCoin"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "331:18:2"
+            },
+            "scope": 348,
+            "src": "284:100:2",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "internal"
+          }
+        ],
+        "scope": 349,
+        "src": "116:271:2"
+      }
+    ],
+    "src": "0:388:2"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "1.0.1",
-  "updatedAt": "2018-03-07T04:40:52.913Z"
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-03-07T06:43:54.676Z"
 }
