@@ -26,8 +26,8 @@ contract StannyCoin is Ownable {
    * Initialize the contract and give all of the tokens to the creator.
    */
   function StannyCoin() public {
-        balances[msg.sender] = 1000000;  // give all of the tokens to the creator
-        totalSupply = 1000000;
+        balances[msg.sender] = 100000;  // give all of the tokens to the creator
+        totalSupply = 100000;
         name = "StannyCoin";
         symbol = "STAN";
   }
